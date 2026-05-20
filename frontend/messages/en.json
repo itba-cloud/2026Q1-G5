@@ -1,0 +1,184 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"campaign_breadcrumb": "Campaigns",
+	"campaign_eyebrow": "Campaign",
+	"campaign_generateAnalysis": "Generate AI Analysis",
+	"campaign_noTopics": "No topics in this campaign.",
+	"campaign_notFoundBody": "We couldn't locate this campaign. It may have been deleted or the name is incorrect.",
+	"campaign_notFoundCta": "Back to campaigns",
+	"campaign_notFoundTitle": "Campaign not found",
+	"campaign_reportsHeading": "Reports",
+	"campaign_reportsPlaceholder": "Sentiment reports will appear here once ingestion runs.",
+	"campaign_statusActive": "Active",
+	"campaign_statusEnded": "Ended",
+	"campaign_topicSubtitle": "Sentiment tracked daily",
+	"campaign_topicsHeading": "Tracked topics",
+	"common_back": "Go back",
+	"common_cancel": "Cancel",
+	"common_dashboard": "Open dashboard",
+	"common_home": "Back to home",
+	"common_loading": "Loading…",
+	"common_signedIn": "Signed in",
+	"common_signIn": "Sign in",
+	"common_view": "View",
+	"create_breadcrumbCampaigns": "Campaigns",
+	"create_breadcrumbNew": "New",
+	"create_endLabel": "End date",
+	"create_errorDuplicate": "\"{topic}\" already added",
+	"create_errorMax": "Maximum {max} topics",
+	"create_errorMinLen": [
+		{
+			"match": {
+				"minLen=*": "Topic must be at least {minLen} characters",
+				"minLen=1": "Topic must be at least 1 character"
+			}
+		}
+	],
+	"create_errorNetwork": "Network error — please check your connection.",
+	"create_errorUnknown": "Something went wrong. Please try again.",
+	"create_intervalHint": [
+		{
+			"match": {
+				"max=*": "Maximum interval: {max} days.",
+				"max=1": "Maximum interval: 1 day."
+			}
+		}
+	],
+	"create_nameHint": "Up to {max} characters. Letters and underscores only.",
+	"create_nameLabel": "Campaign name",
+	"create_removeTopic": "Remove {topic}",
+	"create_startLabel": "Start date",
+	"create_submit": "Create campaign",
+	"create_submitting": "Creating...",
+	"create_subtitle": "Pick a name, list the topics you want to track, and set the date range.",
+	"create_title": "Create a campaign",
+	"create_topicCounter": "{count} / {max}",
+	"create_topicPlaceholder": "Type a topic and press Enter...",
+	"create_topicsHint": "Press Enter or comma to add a topic. Up to {max}, {minLen}-{maxLen} characters each.",
+	"create_topicsLabel": "Topics",
+	"errors_body": [
+		{
+			"match": {
+				"code=*": "An unexpected error occurred. Please try again.",
+				"code=404": "We couldn't find the page you were looking for. It may have been moved or never existed.",
+				"code=500": "Our servers tripped over a wire. The team has been notified — try again in a moment."
+			}
+		}
+	],
+	"errors_code": [
+		{
+			"match": {
+				"code=*": "Error",
+				"code=404": "404",
+				"code=500": "500"
+			}
+		}
+	],
+	"errors_detail": "Detail",
+	"errors_title": [
+		{
+			"match": {
+				"code=*": "Unexpected error",
+				"code=404": "Page not found",
+				"code=500": "Something went wrong"
+			}
+		}
+	],
+	"home_badge": "Bluesky topic intelligence",
+	"home_titleLine1": "Track the topics",
+	"home_titleLine2": "your audience cares about",
+	"home_subtitle": "Create a campaign, define the topics you want to monitor, and Marky finds relevant Bluesky posts to generate reports with sentiment, key conversations and representative comments.",
+	"home_createCampaign": "Create campaign",
+	"home_openDashboard": "Open dashboard",
+	"list_badgeDaysLeft": [
+		{
+			"match": {
+				"days=*": "{days} days left",
+				"days=0": "Last day",
+				"days=1": "1 day left"
+			}
+		}
+	],
+	"list_badgeEnded": "Ended",
+	"list_badgeEndsToday": "Ends today",
+	"list_emptyBody": "Campaigns let you track topics over time and measure sentiment across prediction markets.",
+	"list_emptyCta": "Create your first campaign",
+	"list_emptyLead": "No campaigns yet - kick one off to start tracking sentiment.",
+	"list_emptyTitle": "No campaigns yet",
+	"list_eyebrow": "Dashboard",
+	"list_newCampaign": "New campaign",
+	"list_statCampaigns": "Campaigns",
+	"list_statRunning": "Running now",
+	"list_statTopics": "Topics tracked",
+	"list_summary": [
+		{
+			"match": {
+				"count=*": "{count} active campaigns being monitored.",
+				"count=0": "No active campaigns being monitored.",
+				"count=1": "1 active campaign being monitored."
+			}
+		}
+	],
+	"list_title": "Your campaigns",
+	"list_topicCount": [
+		{
+			"match": {
+				"count=*": "{count} topics",
+				"count=1": "1 topic"
+			}
+		}
+	],
+	"login_confirmCodeLabel": "Verification code",
+	"login_confirmCodePlaceholder": "123456",
+	"login_confirmPasswordLabel": "Confirm password",
+	"login_confirmResend": "Resend code",
+	"login_confirmSubmit": "Verify",
+	"login_confirmSubmitting": "Verifying...",
+	"login_confirmSubtitle": "Check your email for a verification code.",
+	"login_confirmTitle": "Confirm your account",
+	"login_emailLabel": "Email",
+	"login_emailPlaceholder": "you@example.com",
+	"login_errorExpiredCode": "Code expired. Please request a new one.",
+	"login_errorInvalidCode": "Invalid code. Please try again.",
+	"login_errorNetwork": "Network error — please check your connection.",
+	"login_errorNotConfirmed": "Account not confirmed. Please check your email.",
+	"login_errorPasswordMismatch": "Passwords do not match.",
+	"login_errorUnknown": "Something went wrong. Please try again.",
+	"login_errorUserExists": "An account with this email already exists.",
+	"login_errorWeakPassword": "Password too weak. Use 8+ chars with uppercase, lowercase, and numbers.",
+	"login_errorWrongPassword": "Incorrect email or password.",
+	"login_footer": "By signing in you agree to track sentiment responsibly.",
+	"login_forgotPassword": "Forgot password?",
+	"login_passwordLabel": "Password",
+	"login_passwordPlaceholder": "••••••••",
+	"login_signupSubmit": "Create account",
+	"login_signupSubmitting": "Creating account...",
+	"login_signupSuccess": "Account confirmed. Please sign in.",
+	"login_signupTitle": "Create an account",
+	"login_submit": "Sign in",
+	"login_submitting": "Signing in...",
+	"login_subtitle": "Sign in to continue.",
+	"login_switchToSignin": "Already have an account? Sign in",
+	"login_switchToSignup": "Don't have an account? Sign up",
+	"login_title": "Welcome back",
+	"nav_campaigns": "Campaigns",
+	"nav_newCampaign": "New campaign",
+	"nav_signOut": "Sign out",
+	"reset_codeLabel": "Verification code",
+	"reset_codeSubtitle": "Enter the code from your email and choose a new password.",
+	"reset_codeTitle": "Reset your password",
+	"reset_confirmPasswordLabel": "Confirm new password",
+	"reset_confirmSubmit": "Reset password",
+	"reset_confirmSubmitting": "Resetting...",
+	"reset_emailLabel": "Email",
+	"reset_emailSubmit": "Send reset code",
+	"reset_emailSubmitting": "Sending...",
+	"reset_errorExpiredCode": "Code expired. Please request a new one.",
+	"reset_errorInvalidCode": "Invalid code. Please try again.",
+	"reset_newPasswordLabel": "New password",
+	"reset_subtitle": "Enter your email and we'll send you a code to reset your password.",
+	"reset_success": "Password reset successfully. Please sign in.",
+	"reset_title": "Forgot password",
+	"theme_toDark": "Switch to dark mode",
+	"theme_toLight": "Switch to light mode"
+}
