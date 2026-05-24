@@ -1,0 +1,184 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"campaign_breadcrumb": "Campañas",
+	"campaign_eyebrow": "Campaña",
+	"campaign_generateAnalysis": "Generar análisis con IA",
+	"campaign_noTopics": "Esta campaña no tiene temas cargados.",
+	"campaign_notFoundBody": "No la pudimos ubicar. Capaz la borraste o el nombre está mal escrito.",
+	"campaign_notFoundCta": "Volver a campañas",
+	"campaign_notFoundTitle": "No encontramos esta campaña",
+	"campaign_reportsHeading": "Reportes",
+	"campaign_reportsPlaceholder": "Acá van a aparecer los reportes cuando corra la ingesta.",
+	"campaign_statusActive": "Activa",
+	"campaign_statusEnded": "Terminó",
+	"campaign_topicSubtitle": "Sentimiento medido todos los días",
+	"campaign_topicsHeading": "Temas en seguimiento",
+	"common_back": "Volver",
+	"common_cancel": "Cancelar",
+	"common_dashboard": "Abrir el panel",
+	"common_home": "Volver al inicio",
+	"common_loading": "Cargando…",
+	"common_signedIn": "Sesión activa",
+	"common_signIn": "Ingresar",
+	"common_view": "Ver",
+	"create_breadcrumbCampaigns": "Campañas",
+	"create_breadcrumbNew": "Nueva",
+	"create_endLabel": "Hasta",
+	"create_errorDuplicate": "\"{topic}\" ya lo cargaste, che",
+	"create_errorMax": "Pará, el máximo son {max} temas",
+	"create_errorMinLen": [
+		{
+			"match": {
+				"minLen=*": "El tema tiene que tener al menos {minLen} letras",
+				"minLen=1": "El tema tiene que tener al menos 1 letra"
+			}
+		}
+	],
+	"create_errorNetwork": "Error de red — revisá tu conexión.",
+	"create_errorUnknown": "Algo salió mal. Probá de nuevo.",
+	"create_intervalHint": [
+		{
+			"match": {
+				"max=*": "El intervalo no puede mayor a {max} días.",
+				"max=1": "El intervalo no puede mayor a 1 día."
+			}
+		}
+	],
+	"create_nameHint": "Hasta {max} caracteres. Solo letras y guión bajo, nada raro.",
+	"create_nameLabel": "Nombre de la campaña",
+	"create_removeTopic": "Sacar {topic}",
+	"create_startLabel": "Desde",
+	"create_submit": "Crear campaña",
+	"create_submitting": "Creando...",
+	"create_subtitle": "Ponele un nombre, cargá los temas que querés seguir y elegí el rango de fechas.",
+	"create_title": "Armar una campaña",
+	"create_topicCounter": "{count} / {max}",
+	"create_topicPlaceholder": "Escribí un tema y dale Enter...",
+	"create_topicsHint": "Apretá Enter o coma para sumar un tema. Hasta {max}, de {minLen} a {maxLen} caracteres cada uno.",
+	"create_topicsLabel": "Temas",
+	"errors_body": [
+		{
+			"match": {
+				"code=*": "Pasó algo raro. Probá de nuevo en un toque.",
+				"code=404": "No pudimos encontrar la página que buscás. Capaz la movieron o nunca existió.",
+				"code=500": "Algo se cortó del lado nuestro. Ya estamos viendo qué pasó — probá en un rato."
+			}
+		}
+	],
+	"errors_code": [
+		{
+			"match": {
+				"code=*": "Error",
+				"code=404": "404",
+				"code=500": "500"
+			}
+		}
+	],
+	"errors_detail": "Detalle",
+	"errors_title": [
+		{
+			"match": {
+				"code=*": "Error inesperado",
+				"code=404": "Página no encontrada",
+				"code=500": "Uh, algo se rompió"
+			}
+		}
+	],
+	"home_badge": "Inteligencia de tópicos en Bluesky",
+	"home_titleLine1": "Seguí los temas",
+	"home_titleLine2": "que le importan a tu audiencia",
+	"home_subtitle": "Creá una campaña, definí los tópicos que querés monitorear y Marky encuentra publicaciones relevantes en Bluesky para generar reportes con sentimiento, conversaciones clave y comentarios representativos.",
+	"home_createCampaign": "Armar campaña",
+	"home_openDashboard": "Abrir el panel",
+	"list_badgeDaysLeft": [
+		{
+			"match": {
+				"days=*": "Quedan {days} días",
+				"days=0": "Último día",
+				"days=1": "Queda 1 día"
+			}
+		}
+	],
+	"list_badgeEnded": "Terminó",
+	"list_badgeEndsToday": "Termina hoy",
+	"list_emptyBody": "Con las campañas podés seguir temas en el tiempo y ver cómo se mueve el sentimiento en los mercados de predicción.",
+	"list_emptyCta": "Armá tu primera campaña",
+	"list_emptyLead": "Todavía no armaste ninguna. Dale, arrancá una para ver cómo viene el sentimiento.",
+	"list_emptyTitle": "Acá no hay nada todavía",
+	"list_eyebrow": "Panel",
+	"list_newCampaign": "Nueva campaña",
+	"list_statCampaigns": "Campañas",
+	"list_statRunning": "Corriendo ahora",
+	"list_statTopics": "Temas en seguimiento",
+	"list_summary": [
+		{
+			"match": {
+				"count=*": "{count} campañas activas en la mira.",
+				"count=0": "Sin campañas activas en la mira.",
+				"count=1": "1 campaña activa en la mira."
+			}
+		}
+	],
+	"list_title": "Tus campañas",
+	"list_topicCount": [
+		{
+			"match": {
+				"count=*": "{count} temas",
+				"count=1": "1 tema"
+			}
+		}
+	],
+	"login_confirmCodeLabel": "Código de verificación",
+	"login_confirmCodePlaceholder": "123456",
+	"login_confirmPasswordLabel": "Confirmar contraseña",
+	"login_confirmResend": "Reenviar código",
+	"login_confirmSubmit": "Verificar",
+	"login_confirmSubmitting": "Verificando...",
+	"login_confirmSubtitle": "Revisá tu email, te mandamos un código.",
+	"login_confirmTitle": "Confirmá tu cuenta",
+	"login_emailLabel": "Email",
+	"login_emailPlaceholder": "vos@ejemplo.com",
+	"login_errorExpiredCode": "El código venció. Pedí uno nuevo.",
+	"login_errorInvalidCode": "Código inválido. Probá de nuevo.",
+	"login_errorNetwork": "Error de red — revisá tu conexión.",
+	"login_errorNotConfirmed": "Cuenta sin confirmar. Revisá tu email.",
+	"login_errorPasswordMismatch": "Las contraseñas no coinciden.",
+	"login_errorUnknown": "Algo salió mal. Probá de nuevo.",
+	"login_errorUserExists": "Ya existe una cuenta con ese email.",
+	"login_errorWeakPassword": "Contraseña muy débil. Usá 8+ caracteres con mayúsculas, minúsculas y números.",
+	"login_errorWrongPassword": "Email o contraseña incorrectos.",
+	"login_footer": "Al ingresar te comprometés a usar esta data con cabeza.",
+	"login_forgotPassword": "¿Olvidaste tu contraseña?",
+	"login_passwordLabel": "Contraseña",
+	"login_passwordPlaceholder": "••••••••",
+	"login_signupSubmit": "Crear cuenta",
+	"login_signupSubmitting": "Creando cuenta...",
+	"login_signupSuccess": "Cuenta confirmada. Ya podés ingresar.",
+	"login_signupTitle": "Creá tu cuenta",
+	"login_submit": "Ingresar",
+	"login_submitting": "Ingresando...",
+	"login_subtitle": "Ingresá para continuar.",
+	"login_switchToSignin": "¿Ya tenés cuenta? Ingresá",
+	"login_switchToSignup": "¿No tenés cuenta? Creá una",
+	"login_title": "¡Qué bueno verte de nuevo!",
+	"nav_campaigns": "Campañas",
+	"nav_newCampaign": "Nueva campaña",
+	"nav_signOut": "Cerrar sesión",
+	"reset_codeLabel": "Código de verificación",
+	"reset_codeSubtitle": "Ingresá el código del email y elegí una contraseña nueva.",
+	"reset_codeTitle": "Restablecé tu contraseña",
+	"reset_confirmPasswordLabel": "Confirmar contraseña nueva",
+	"reset_confirmSubmit": "Restablecer contraseña",
+	"reset_confirmSubmitting": "Restableciendo...",
+	"reset_emailLabel": "Email",
+	"reset_emailSubmit": "Enviar código",
+	"reset_emailSubmitting": "Enviando...",
+	"reset_errorExpiredCode": "El código venció. Pedí uno nuevo.",
+	"reset_errorInvalidCode": "Código inválido. Probá de nuevo.",
+	"reset_newPasswordLabel": "Contraseña nueva",
+	"reset_subtitle": "Poné tu email y te mandamos un código para restablecer tu contraseña.",
+	"reset_success": "Contraseña restablecida. Ya podés ingresar.",
+	"reset_title": "Olvidé mi contraseña",
+	"theme_toDark": "Cambiar a modo oscuro",
+	"theme_toLight": "Cambiar a modo claro"
+}
