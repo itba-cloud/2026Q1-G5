@@ -36,18 +36,19 @@ The professor must add the following secrets to the repository settings (Setting
 | `BLUESKY_IDENTIFIER` | Bluesky handle (e.g., handle.bsky.social) |
 | `BLUESKY_APP_PASSWORD` | Bluesky app-specific password |
 
-### Step 2: Run Deploy
+### Step 2: Run Deploy Workflow
 
-```
-cd lambdas
-pnpm i
-pnpm -r build
-cd ../terraform
-terraform init
-terraform apply
-cd ..
-make deploy-frontend
-```
+1. Go to Actions tab
+2. Select "Deploy Infrastructure"
+3. Click "Run workflow"
+4. Workflow will:
+   - Build Lambda functions
+   - Initialize Terraform (local backend, no bootstrap needed)
+   - Apply infrastructure (creates VPC, RDS, Lambda, Cognito, etc.)
+   - Store Gemini API key in AWS Secrets Manager
+   - Build and deploy frontend to S3
+
+Expected runtime: 15-20 minutes (RDS instance creation is slowest)
 
 ### Step 3: Access Deployed Application
 
