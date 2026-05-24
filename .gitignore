@@ -1,0 +1,29 @@
+node_modules/
+dist/
+
+.venv/
+__pycache__/
+backend/data/
+
+# Claude / agent workspace artifacts
+.claude/
+**/docs/superpowers/
+.worktrees/
+worktrees/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+!terraform/terraform.tfvars.example
+terraform/modules/*/dist/
+
+# SSH keys
+*.pem
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+credentials.txt
